@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Você aceita namorar comigo?</h1>
+    <button id="yes-button" onclick="showThanks()">Yes</button>
+    <button id="no-button">No</button>
+
+    <script>
+        function showThanks() {
+            document.getElementById("yes-button").disabled = true;
+            document.getElementById("no-button").style.display = "none";
+            alert("Amo você!");
+        }
+    </script>
+</body>
+</html>
